@@ -1,0 +1,19 @@
+ID: TEST_MULTI_USERS
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: TEST_MULTI_USERS_DB
+   type: hdb
+   path: TEST_MULTI_USERS_DB
+   requires:
+    - name: hdi_TEST_MULTI_USERS_DB
+
+resources:
+ - name: hdi_TEST_MULTI_USERS_DB
+   parameters:
+      config:
+         schema: TEST_MULTI_USERS_DB
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
