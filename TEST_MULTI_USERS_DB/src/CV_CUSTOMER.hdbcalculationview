@@ -39,7 +39,11 @@
   <calculatedAttributes>
     <calculatedAttribute id="CC_1" order="7" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
       <keyCalculation datatype="VARCHAR" expressionLanguage="SQL" length="13">
+<<<<<<< HEAD
         <formula>'AA'</formula>
+=======
+        <formula>'A'</formula>
+>>>>>>> refs/heads/master
       </keyCalculation>
       </calculatedAttribute>
   </calculatedAttributes>
