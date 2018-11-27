@@ -39,7 +39,7 @@
   <calculatedAttributes>
     <calculatedAttribute id="CC_1" order="7" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
       <keyCalculation datatype="VARCHAR" expressionLanguage="SQL" length="13">
-        <formula>'B'</formula>
+        <formula>'AA'</formula>
       </keyCalculation>
       </calculatedAttribute>
   </calculatedAttributes>
