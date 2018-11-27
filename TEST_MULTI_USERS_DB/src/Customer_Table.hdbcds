@@ -1,0 +1,12 @@
+namespace TEST_MULTI_USERS.TEST_MULTI_USERS_DB;
+
+context Customer_Table {
+    entity Customers {
+        key id        : Integer not null;
+            name      : String(100);
+            lifeSpend : Double;
+            newSpend  : Double;
+            income    : Double;
+            loyalty   : Double;
+    };
+};
