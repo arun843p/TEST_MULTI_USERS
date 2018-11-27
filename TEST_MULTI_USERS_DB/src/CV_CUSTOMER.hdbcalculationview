@@ -36,7 +36,13 @@
       <keyMapping columnObjectName="Customer_Table.Customers" columnName="loyalty"/>
     </attribute>
   </attributes>
-  <calculatedAttributes/>
+  <calculatedAttributes>
+    <calculatedAttribute id="CC_1" order="7" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
+      <keyCalculation datatype="VARCHAR" expressionLanguage="SQL" length="13">
+        <formula>'A'</formula>
+      </keyCalculation>
+      </calculatedAttribute>
+  </calculatedAttributes>
   <baseMeasures/>
   <calculatedMeasures/>
   <restrictedMeasures/>
